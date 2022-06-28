@@ -1,0 +1,23 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.19085627770183447 0.17266504945972674 0.9663129213442561 1.70482786116875
+  position 0.8207294496000739 -8.468152312536438 4.14749685104746
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 3
+  floorAppearance OsbWood {
+  }
+}
+WoodenBox {
+  translation 1.5 -0.4 0.3
+}
+UR5e {
+  translation 1.5 -0.4 0.6
+  controller "boilerpate_code"
+}
